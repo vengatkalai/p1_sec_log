@@ -1,0 +1,10 @@
+
+.btn2{
+    border:1px solid var(--primary) !important;
+    color: var(--primary);
+    
+}
+.btn2:hover{
+    background-color: var(--primary) !important;
+    color: #fff !important;
+}

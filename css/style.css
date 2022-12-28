@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.header {
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+:root {
+    --primary: #7053BC;
+}
+
+.head {
+    width: 100%;
+    border-bottom: 3px solid var(--primary);
+}
+
+.logo img, .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo , .image{
+    width: 100px;
+    height: 100px;
+    border: 3px solid #fff
+}
+
+.login a,
+.submit {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid var(--primary);
+    transition: 0.5s;
+
+}
+.submit:hover{
+    background-color: var(--primary);
+    color: #fff;
+    font-size: large;
+}
+
+.login a:hover {
+    background-color: var(--primary);
+    color: #fff;
+
+}
+
+.banner img {
+    height: 100px;
+    background-size: contain;
+}
+
+.form {
+    width: 300px;
+    border: 2px solid var(--primary);
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+
+.form h1 {
+    border-bottom: 2px solid #7053BC;
+    padding: 5px;
+    text-align: center;
+}
+
+.form label {
+    display: inline-block;
+    width: 100%;
+}
+
+.form input {
+    width: 80%;
+    display: block;
+    margin: 6px 0 20px 0;
+    height: 25px;
+    outline: 1px solid var(--primary);
+    padding-left: 5px;
+}
+
+.form1 input {
+    margin: 6px 0 15px 0;
+}
+
+.submit {
+    width: 100px !important;
+    line-height: 5px;
+}
+
+.input {
+    padding: 50px 0;
+}
+
+.input p {
+    padding-bottom: 15px;
+    /* visibility: hidden; */
+}
+
+.input1 {
+    padding: 10px;
+}
+.error{
+    color: red;
+}
+
+/* ======================================================  */
+.profile{
+    height: 100px;
+    background-color: var(--primary);
+}
+.btn1:hover{
+    background-color: #fff !important;
+    color: var(--primary) !important;
+    outline: none !important;
+}
+#output{
+    display: none !important;
+}
